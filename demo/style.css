@@ -5,6 +5,28 @@
 	margin:30px;
 	font-family:'Pavanam', sans-serif;
 }
+
+.sliderContainer {
+	font-family:'Dosis',sans-serif;
+	position:relative;
+	max-width:1260px;
+	margin:auto;
+	padding:30px;
+	background:#3386aa;
+}
+
+.slider_intro, .slider_example{
+	position:relative;
+	text-align:center;
+	background: pink;
+}
+
+.vertAlign{
+	position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 h1{
 	font-family:'Dosis', sans-serif;
 	color:#3386aa;
@@ -12,91 +34,19 @@ h1{
 	font-size:4em;
 	padding-bottom:40px;
 }
+
+h2{
+	font-size: 5vw;
+	margin:0;
+}
+
+h3{
+	font-size:3vw;
+	margin:0;
+}
+
 p{
 	font-size:1.5em;
 	color:#707070;
 	padding-bottom:30px;
-}
-.slider_wrap{
-	position:relative;
-	font-family:'Dosis',sans-serif;
-	max-width:1260px;
-	margin:auto;
-	padding:30px;
-	background:#3386aa;
-}
-
-.slider_container{
-	margin:auto;
-	position:relative;
-	width:70%;
-	max-height:600px;
-	height:500px;
-	background:#fff;
-}
-
-.scrollLeft, .scrollRight{
-	height:100%;
-	position:absolute;
-	color:#fff;
-	font-size:7em;
-	cursor:pointer;
-	z-index:10;
-	padding:0px 20px;
-	opacity:0.8;
-}
-.scrollLeft{
-	left:0;
-}
-.scrollRight{
-	right:0;
-
-}
-.scrollRight > span, .scrollLeft > span {
-	position:relative;
-	top: 30%;
-  transform: translateY(-30s%);
-}
-
-.scrollLeft:hover, .scrollRight:hover{
-	color:#00bbff;
-
-}
-
-
-.container{
-	position:relative;
-	background:#909090;
-	height:100%;
-	width:100%;
-}
-.underScreen{
-	position: absolute;
-	margin:auto;
-	width:100%;
-	overflow:auto;
-	overflow-y: hidden;
-	white-space: nowrap;
-	height:100%;
-	color:#FFF;
-
-}
-
-.joCont{
-	position:relative;
-	top:0px;
-	left:0px;
-	width:100%;
-	height:100%;
-	opacity:0.4;
-	background:red;
-	color:#FFF;
-	display:inline-block;
-	vertical-align: top;
-	z-index:2;
-}
-
-.joCont > img{
-	width:100%;
-	height:auto;
 }
